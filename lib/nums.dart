@@ -1,28 +1,12 @@
 import 'package:flutter/material.dart';
 
-var numb1 = 0;
-var numb2 = 0;
-var numb3 = 0;
-var numb4 = 0;
-var numb5 = 0;
-var numb6 = 0;
-var numb7 = 0;
-var numb8 = 0;
-var numb9 = 0;
-var numb0 = 0;
-var numb10 = 0;
-var numb11 = 0;
-var numb12 = 0;
-var numb13 = 0;
-var numb14 = 0;
-var numb15 = 0;
-var numb16 = 0;
+
 var num = Padding(
-  padding: EdgeInsets.all(14.0),
+  padding: EdgeInsets.all(10.0),
   child: Row(children: [
     ElevatedButton(
       onPressed: () {
-        numb1=7;
+
       },
       style: ElevatedButton.styleFrom(
         shape: CircleBorder(),
@@ -104,7 +88,7 @@ var num = Padding(
 ///ک/یسب/کیسنبتکسشمنیبتمسینبتشمنتلکسبیمتنتیستیببیییابابیاباتبیی
 
 var num2 = Padding(
-  padding: EdgeInsets.all(14.0),
+  padding: EdgeInsets.all(10.0),
   child: Row(children: [
     ElevatedButton(
       onPressed: () {},
@@ -188,7 +172,7 @@ var num2 = Padding(
 ///ک/یسب/کیسنبتکسشمنیبتمسینبتشمنتلکسبیمتنتیستیببیییابابیاباتبیی
 
 var num3 = Padding(
-  padding: EdgeInsets.all(14.0),
+  padding: EdgeInsets.all(10.0),
   child: Row(children: [
     ElevatedButton(
       onPressed: () {},
@@ -272,7 +256,7 @@ var num3 = Padding(
 ///ک/یسب/کیسنبتکسشمنیبتمسینبتشمنتلکسبیمتنتیستیببیییابابیاباتبیی
 
 var num4 = Padding(
-  padding: EdgeInsets.all(14.0),
+  padding: EdgeInsets.all(10.0),
   child: Row(children: [
     ElevatedButton(
       onPressed: () {},
@@ -356,16 +340,13 @@ var num4 = Padding(
 class Nums extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.all(9.0),
-      child: Column(
-        children: [
-          num,
-          num2,
-          num3,
-          num4,
-        ],
-      ),
+    return Column(
+      children: [
+        num,
+        num2,
+        num3,
+        num4,
+      ],
     );
   }
 }
