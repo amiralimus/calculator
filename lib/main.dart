@@ -37,18 +37,15 @@ class Pg1 extends StatelessWidget {
         backgroundColor: Colors.black87,
       ),
       backgroundColor: Colors.black87,
-      body:Padding(
-    padding: EdgeInsets.all(4.0),
-    child: Expanded(
-        child: Column(crossAxisAlignment: CrossAxisAlignment.start,
-            children:[
-            Box(),
-        Spacer(),
-              Nums(),
-            ]
+      body:Expanded(
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+              children:[
+              Box(),
+          Spacer(),
+                Nums(),
+              ]
+          ),
         ),
-      ),
-      ),
     );
   }
 }
